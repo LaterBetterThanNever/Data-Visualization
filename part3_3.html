@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>全省房价数据分析</title>
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/style.min862f.css?v=4.1.0" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg top-navigation">
+
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+            <div class="row border-bottom white-bg" style="position: relative;">
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <div id="head_div" class="navbar-header" style="height:50px;width:800px;">
+                        <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                            <i class="fa fa-reorder"></i>
+                        </button>
+                        <a href="part1_1.html" class="navbar-brand"></a>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a aria-expanded="false" role="button" href="part1_1.html"> 返回首页</a>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> GDP数据 <span class="caret"></span></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li><a href="part1_1.html">经济指标概览</a>
+                                    </li>
+                                    <li><a href="part1_2.html">历年GDP数据</a>
+                                    </li>
+                                    <li><a href="part1_3.html">三大产业分析</a>
+                                    </li>
+                					<li><a href="part1_4.html">各市县GDP数据</a>
+                					</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 财政数据 <span class="caret"></span></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li><a href="part2_1.html">历年财政数据概览</a>
+                                    </li>
+                                    <li><a href="part2_2.html">各县市历年财务收入</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 固定资产及房地产数据 <span class="caret"></span></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li><a href="part3_1.html">全省固定资产投资情况</a>
+                                    </li>
+                                    <li><a href="part3_2.html">固定资产投资项目</a>
+                                    </li>
+                                    <li><a href="part3_3.html">全省房价数据分析</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 能耗数据 <span class="caret"></span></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li><a href="part4_1.html">电力消耗与能源消耗数据</a>
+                                    </li>
+                                </ul>
+                            </li>
+                
+                        </ul>
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li>
+                                <a href="part1_1.html">
+                                    <i class="fa fa-sign-out"></i> 退出
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div id="main" class="wrapper wrapper-content" style="height:1700px;width:1339.6px;">
+				
+                <div class="container">
+                    <div id="top_main" class="row" style="height:159.13px;width:1250px;">
+                        <div class="col-md-2">
+                            <div class="ibox float-e-margins">
+                                <div class="ibox-title">
+                                    <span class="label label-success pull-right">元/平方米</span>
+                                    <h5>全省平均房价</h5>
+                                </div>
+                                <div class="ibox-content">
+                                    <h1 class="no-margins">11,404.5</h1>
+                                    <div class="stat-percent font-bold text-success">17.0% <i class="fa fa-bolt"></i>
+                                    </div>
+                                    <small>上涨</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="ibox float-e-margins">
+                                <div class="ibox-title">
+                                    <span class="label label-info pull-right">元/平方米</span>
+                                    <h5>宁波平均房价</h5>
+                                </div>
+                                <div class="ibox-content">
+                                    <h1 class="no-margins">13,324.53</h1>
+                                    <div class="stat-percent font-bold text-success">18.7% <i class="fa fa-bolt"></i>
+                                    </div>
+                                    <small>上涨</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="ibox float-e-margins">
+                                <div class="ibox-title">
+                                    <span class="label label-primary pull-right">元/平方米</span>
+                                    <h5>杭州平均房价</h5>
+                                </div>
+                                <div class="ibox-content">
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h1 class="no-margins">20,354.06</h1>
+                                            <div class="font-bold text-navy">上涨：29.2%<i class="fa fa-level-up"></i> <small></small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h1 class="no-margins">12.2%</h1>
+                                            <div class="font-bold text-navy">超过全省平均<i class="fa fa-level-up"></i> <small></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ibox float-e-margins">
+                                <div class="ibox-title">
+                                    <h5>温州平均房价</h5>
+                                    <div class="ibox-tools">
+                                        <span class="label label-primary">元/平方米</span>
+                                    </div>
+                                </div>
+                                <div class="ibox-content">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h1 class="no-margins">12,307.67</h1>
+                                            <div class="font-bold text-navy">2017年<i class="fa fa-level-up"></i> <small>下跌5.9%</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h1 class="no-margins">13,075.64</h1>
+                                            <div class="font-bold text-navy">2016年<i class="fa fa-level-up"></i> <small></small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div id="middle_main" class="row" style=" position:relative;height:720px;width:1250px;">
+						<div id="margins_div" class="ibox-content" style="margin-left:5px;height:350px;width:382px;position:absolute;right:15px;bottom:30px;">
+							<div class="ibox-title">
+							    <h3>宁波历年平均房价分析</h3>
+							</div>
+						    <ul class="stat-list m-t-lg">
+						        <li>
+						            <h2 class="no-margins">10,708.37</h2>
+						            <small>最低房价</small>
+						            <div class="progress progress-mini">
+						                <div class="progress-bar" style="width: 51.0%;"></div>
+						            </div>
+						        </li>
+						        <li>
+						            <h2 class="no-margins ">13,324.53</h2>
+						            <small>最高房价</small>
+						            <div class="progress progress-mini">
+						                <div class="progress-bar" style="width: 62%;"></div>
+						            </div>
+						        </li>
+						    	<li>
+						    	    <h2 class="no-margins ">11,161.71</h2>
+						    	    <small>中位房价</small>
+						    	    <div class="progress progress-mini">
+						    	        <div class="progress-bar" style="width: 56.9%;"></div>
+						    	    </div>
+						    	</li>
+						    </ul>
+						</div>
+                        <div class="col-lg-8">
+                            <div id="div_2" class="ibox float-e-margins" style="height:750px;width:820px;">
+                                <div class="ibox-content">
+                                    <div class="m-t-sm" >
+
+                                        <div class="row" >
+                                            <div class="col-md-8">
+                                                <div>
+                                                    <canvas id="chart3-5" height="600" width="800"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="m-t-md">
+                                        <small class="pull-right">
+                                    </small>
+                                        <small>
+                                        <strong>说明：</strong>波动型城市例如杭州、温州、金华等，以金华为例，极差达到了4094元/平方米，中位数房价为9671.77元/平方米；
+                                    </small>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" style="margin-left:5px;height:390px;width:410px;">
+                            <div class="ibox float-e-margins">
+                                <div class="ibox-title">
+                                    <h4>各市房价波动性分析</h4>
+                                </div>
+                                <div class="ibox-content">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <small class="stats-label">16年嘉兴平均房价</small>
+                                            <h4>7,626.49</h4>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <small class="stats-label">17年嘉兴平均房价</small>
+                                            <h4>10,758.36</h4>
+                                        </div>
+										<div class="col-xs-4">
+										    <small class="stats-label">增长</small>
+										    <h4>41.1%</h4>
+										</div>
+                                    </div>
+                                </div>
+                                <div class="ibox-content">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <small class="stats-label">16年温州平均房价</small>
+                                            <h4>13,075.64</h4>
+                                        </div>
+
+                                        <div class="col-xs-4">
+                                            <small class="stats-label">17年温州平均房价</small>
+                                            <h4>12,307.67</h4>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <small class="stats-label">下跌</small>
+                                            <h4>5.9%</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ibox-content">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <small class="stats-label">16年杭州平均房价</small>
+                                            <h4>15,753.97</h4>
+                                        </div>
+                                
+                                        <div class="col-xs-4">
+                                            <small class="stats-label">17年杭州平均房价</small>
+                                            <h4>20,354.06</h4>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <small class="stats-label">增长</small>
+                                            <h4>29.2%</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div id="bottom" class="row" style="position:absolute;height:800px;width: 1250px;left:115px;top:960px;">
+                        <div class="col-lg-12" style="height:100%;width:100%">
+                            <div class="ibox float-e-margins" style="height:100%;width:100%">
+                                <div class="ibox-title" >
+                                    <h5>浙江省各市历年房价数据统计</h5>
+                                </div>
+								
+								<div style="height:100%;width:100%">
+								    <canvas id="chart3-4" height="600" width="1220">
+									</canvas>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script>
+    <script src="js/jquery.min.js?v=2.1.4"></script>
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="js/content.min.js?v=1.0.0"></script>
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="js/demo/peity-demo.min.js"></script>
+	<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+	<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+	<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+	<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+	<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+	<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+	<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+	<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+	<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+	<script src="echart/echarts3-4.js"></script>
+	<script src="echart/echarts3-5.js"></script>
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+</html>
